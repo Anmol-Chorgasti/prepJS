@@ -1,4 +1,5 @@
-let age = 26;
+const rlsync = require("readline-sync");
+let age = Number(rlsync.question("Enter your age"));
 
 console.log(`You are ${age} years old`);
 console.log(`In 10 years, you will be ${age+10} years old`);
